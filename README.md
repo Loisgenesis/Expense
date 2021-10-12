@@ -1,16 +1,14 @@
-# expenses
+# Expenses
 
-A new Flutter application.
+Calculate daily expense
+To run, use the following command:
 
-## Getting Started
+Development: flutter run
+Production: flutter run
+To build a release build, use the following command:
 
-This project is a starting point for a Flutter application.
+Android: flutter build apk --release
+iOS: flutter build ios 
+To build a debug build, add the parameter --debug to a command above.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To delete an expense, click on the expense for few seconds and you will get prompt that the expense has been deleted.
